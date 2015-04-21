@@ -46,9 +46,12 @@ ArithmeticException Divide by zero  clojure.lang.Numbers.divide (Numbers.java:15
 
 ## Installation and Usage
 
-Add `[pr-foobar "0.1.0"]` as a dependency. You may wish to add it to your
-`~/.lein/profiles.clj` or `~/.profile.boot` files to have it available with all
-of your projects.
+Add:
+
+[![Clojars Project](http://clojars.org/pr-foobar/latest-version.svg)](http://clojars.org/pr-foobar)
+
+as a dependency. You may wish to add it to your `~/.lein/profiles.clj` or
+`~/.profile.boot` files to have it available with all of your projects.
 
 To use it:
 
