@@ -1,4 +1,4 @@
-(ns pr-foobar.core-test
+(ns pr.foobar-test
   (:require [clojure.test :refer :all]
             [pr.foobar :refer :all]))
 
