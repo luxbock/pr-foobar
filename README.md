@@ -1,8 +1,8 @@
 # pr-foobar
 
 `pr-foobar` is a collection of print debugging macros combining the
-functionality of [print.foo](https://github.com/AlexBaranosky/print-foo) with
-[table](https://github.com/cldwalker/table)
+functionality of [AlexBaranosky/print-foo](https://github.com/AlexBaranosky/print-foo) with
+[cldwalker/table](https://github.com/cldwalker/table).
 
 The following macros are provided: 
 
