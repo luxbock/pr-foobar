@@ -204,7 +204,7 @@
     `(let [vals# (let ~bs ~(vec syms))
            res#  (pass-exception (when-let ~bindings ~@body))]
        (pr-table [(format "when-let %s" '~(first exprs))
-                  (pr-str ~(boolean (second bindings)))]
+                  (pr-str (boolean ~(second bindings)))]
          (conj (mapv vector
                  ~(mapv (fn [x] `(quote ~x)) syms)
                  vals#)
@@ -228,7 +228,7 @@
     `(let [vals# (let ~bs ~(vec syms))
            res# (pass-exception (if-let ~bindings ~@body))]
        (pr-table [(format "if-let %s" '~(first exprs))
-                  (str ~(boolean (second bindings)))]
+                  (str (boolean ~(second bindings)))]
          (conj (mapv vector
                  ~(mapv (fn [x] `(quote ~x)) syms)
                  vals#)
