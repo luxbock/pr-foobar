@@ -29,7 +29,7 @@ user>
 ```
 
 Exceptions are handled gracefully, so using `pr-foobar` is a fast way to get an
-idea why your code is failing:
+idea when your code is failing:
 
 ```clojure
 user> (pr->> (range 5) rest first dec (/ 1) str)
